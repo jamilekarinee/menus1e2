@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none; 
+    text-decoration: none; 
+}  
+
+:root{
+    --cor_cabecalho: #f9d423; 
+    --cor_menu_lateral: #e7c30f; 
+    --cor_hr: #e7c30f; 
+}
+.cabecalho{ 
+    height: 100px; 
+    background-color: var(--cor_cabecalho); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.cabecalho_detalhes{ 
+    display: flex; 
+    align-items: center;
+    margin-left: 7px; 
+}
+.nome_do_site{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif; 
+    font-size: 29px; 
+    margin-top: 5px; 
+    margin-left: 7px;
+} 
+
+.textos_do_corpo{
+    margin-left: 20px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-top: 14px; 
+    font-size: 18px;
+} 
+.textos_do_corpo2{
+    margin-left: 20px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-top: 40px; 
+    font-size: 20px;
+} 
+.navegacao{
+    background-color: var(--cor_menu_lateral); 
+    height: 100%; 
+    width: 100px; 
+    position: fixed; 
+    right: 0;
+} 
+.lista_3{
+    display: inline-block; 
+    align-items: center;
+    margin-bottom: 10px; 
+    margin-top: 12px; 
+    margin-left: 15px; 
+}
+.divisao_lista3{
+    display: flex; 
+    align-items: center;
+}
+.nano_icon{
+    height: 34px;
+    width: 34px; 
+    margin-top: 5px;
+}
+.nomes_lista3{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif; 
+    margin-left: 5px; 
+    font-size: 15px; 
+    margin-top: 6px; 
+    color: black;
+}
+hr{
+    margin-top: 15px; 
+    border-color: var(--cor_hr);
+}
+.textos_do_corpo{
+    margin-left: 20px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-top: 14px; 
+    font-size: 20px;
+} 
+.textos_do_corpo2{
+    margin-left: 25px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-top: 14px; 
+}
+.imagens_do_corpo{
+    display: flex;
+}
+.primeira_img{
+    margin-left: 25px; 
+    height: auto;
+    width: 100px; 
+    margin-right: 5px;
+}
+.imagens_do_corpo_div{
+    height: auto;
+    width: 120px; 
+    margin-right: 10px;
+} 
+.textos_do_corpo3{
+    margin-left: 25px; 
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-top: 14px; 
+}
+@media (max-width: 1024px) {
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    .nome_do_site{
+        font-size: 20px;
+    }
+    .imagens_do_corpo {
+        height: 70px;
+        width: 70px; 
+    }
+    .imagens_do_corpo_div {
+        height: 70px;
+        width: 70px; 
+    }
+    .primeira_img {
+        margin-left: 20px; 
+        height: auto;
+        width: 155px; 
+    }
+    .nomes_lista3{
+        font-size: 10px;
+    }
+    .navegacao{
+        height: 100%;
+        width: 70px;     
+    }
+    .textos_do_corpo{
+        margin-left: 20px;
+    }
+    .textos_do_corpo2{
+        margin-left: 20px;
+    }
+    .textos_do_corpo3{
+        font-size: 10px;
+    }
+} 
